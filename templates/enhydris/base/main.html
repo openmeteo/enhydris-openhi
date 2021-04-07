@@ -1,0 +1,29 @@
+{% extends "enhydris/base/default.html" %}
+
+
+{% block footer %}
+  <style>
+    .page-map-full .page-footer {
+      bottom: -60px;
+    }
+    @media (max-width: 991px) {
+      .page-map-full .page-footer {
+        bottom: -130px;
+      }
+    }
+  </style>
+  <div class="container" style="padding: 0">
+    <div class="row">
+      <div class="col-lg-8">
+        <img
+          alt="ΕΣΠΑ 2014-2020"
+          width="530"
+          height="100"
+          src="https://openhi.net/wp-content/uploads/2018/10/espa-logo.png">
+      </div>
+      <div class ="col-lg">
+        <p style="padding-top: 32px"><a href="https://openhi.net/">Αρχική σελίδα OpenHI</a></p>
+      </div>
+    </div>
+  </div>
+{% endblock %}

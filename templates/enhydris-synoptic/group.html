@@ -1,0 +1,7 @@
+{% extends "enhydris-synoptic/group-default.html" %}
+{% load static %}
+
+{% block leaflet_plugins %}
+  {{ block.super }}
+    <script type="text/javascript" src="{% static 'js/vendor/TileLayer.Grayscale.js' %}"></script>
+{% endblock %}
