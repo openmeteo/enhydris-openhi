@@ -3,5 +3,6 @@
 
 {% block leaflet_plugins %}
   {{ block.super }}
-    <script type="text/javascript" src="{% static 'js/vendor/TileLayer.Grayscale.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/vendor/TileLayer.Grayscale.js' %}"></script>
+  <script type="text/javascript" src="//unpkg.com/leaflet.gridlayer.googlemutant@0.8.0/Leaflet.GoogleMutant.js"></script>
 {% endblock %}
